@@ -1,7 +1,8 @@
 # Charity Funding Predictor
 
-## Background
-Using machine learning and neural networks, create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. The dataset containing more than 34,000 organizations that have received funding from Alphabet Soup over the years as following:
+## Objective
+Using machine learning and neural networks, to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup. 
+The dataset contains more than 34,000 organizations that have received funding from Alphabet Soup over the years with columns as following:
 * **EIN** and **NAME**—Identification columns
 * **APPLICATION_TYPE**—Alphabet Soup application type
 * **AFFILIATION**—Affiliated sector of industry
@@ -30,7 +31,7 @@ Using Pandas and the Scikit-Learn’s `StandardScaler()`, preprocess the dataset
 ### Step 2: Compile, Train, and Evaluate the Model
 Using TensorFlow, design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. Consider how many inputs there are before determining the number of neurons and layers in your model. Once completed, compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
 
-1. Continue using the jupter notebook where you’ve already performed the preprocessing steps from Step 1.
+1. Continue using the jupter notebook which already performed the preprocessing steps from Step 1.
 2. Create a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras.
 3. Create the first hidden layer and choose an appropriate activation function.
 4. If necessary, add a second hidden layer with an appropriate activation function.
@@ -52,7 +53,6 @@ Using TensorFlow, optimize the model in order to achieve a target predictive acc
 * Adding more hidden layers.
 * Using different activation functions for the hidden layers.
 * Adding or reducing the number of epochs to the training regimen.
-**NOTE**: You will not lose points if your model does not achieve target performance, as long as you make three attempts at optimizing the model in your jupyter notebook.
 
 1. Create a new Jupyter Notebook file and name it `AlphabetSoupCharity_Optimzation.ipynb`.
 2. Import your dependencies, and read in the `charity_data.csv` to a Pandas DataFrame.

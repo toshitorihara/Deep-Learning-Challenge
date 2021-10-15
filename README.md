@@ -16,8 +16,6 @@ Using Pandas and the Scikit-Learn’s `StandardScaler()`, preprocess the dataset
 * Use `pd.get_dummies()` to encode categorical variables
 
 ### 2. Compiling, Training, and Evaluating the Model
-Using TensorFlow, design a neural network model to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. Consider how many inputs there are before determining the number of neurons and layers in your model. Once completed, compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.<p>
-
 Continue using the [Jupyter Notebook](Starter_Code.ipynb), and create a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras (first hidden layer, a second hidden layer, and an output layer with an appropriate activation function), and check the structure of the model. Compile, train, and evaluate the model using the test data to determine the loss and accuracy. Save the results to an HDF5 file as [AlphabetSoupCharity.h5](Resources/AlphabetSoupCharity.h5).
 
 ### 3. Optimizing the Model
